@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="desert_tiled.png" tilewidth="32" tileheight="32" spacing="3" margin="3">
+  <image source="gfx/desert_tiled.png" width="281" height="211"/>
+ </tileset>
+ <layer name="background" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlt0KwyAMRn2NbdA6BqPboO37P90UFhD5EmO09WYX56L+5JA01S7OuZlhqSBfH593ABe3tF+7r2ZvrVdTn1nhtHgtuZzh1eSJ6iX1Gxpv6U3iErgauRmdkXtgMvL4xZgGeUfka8k18gq8GSg+N/9pyBexZnnFsWdCDwf6DvJ6Wr0Ue2PmUjzw+gPyzeG8llgozzO8mrPMu3FeAnmJGq/1XEj72cLfW7cv7RPp3s3nJa9056O1mv+SXeGVer7kpfjceMnL1Y5bi/6ZUR165avxovfU+n5Lbq5erf0suTX3ac/vVzqDV8X+I/gCEJiCZw==
+  </data>
+ </layer>
+ <layer name="action" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJACAMBdGsoVZqFd1/P1P/WgLKPbj6zAAA+F+JqtQSvj0a0uR7nUdL2glfAHjdATR8A/0=
+  </data>
+ </layer>
+</map>
