@@ -542,7 +542,7 @@ public class Base64 {
 		encoder.output = new byte[output_len];
 		encoder.process(input, offset, len, true);
 
-		assert encoder.op == output_len;
+		//assert encoder.op == output_len;
 
 		return encoder.output;
 	}
@@ -736,8 +736,8 @@ public class Base64 {
 					output[op++] = '\n';
 				}
 
-				assert this.tailLen == 0;
-				assert p == len;
+				//assert this.tailLen == 0;
+				//assert p == len;
 			} else {
 				// Save the leftovers in tail to be consumed on the next
 				// call to encodeInternal.
